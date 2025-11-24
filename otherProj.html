@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gary Isherwood's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+        background-color: #f2f2f2; /* Light pastel background */
+        font-family: 'Roboto', sans-serif; /* Set Roboto as the default font */
+    }
+
+    .larger-font-section {
+        font-size: 1.25rem; /* Larger text for specific sections */
+    }
+
+    .larger-font-section h2 {
+        font-size: 2rem; /* Larger headers within specified sections */
+    }
+
+    .uniform-image-size {
+        width: 100%; /* Adjust width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .project-card {
+        transition: transform 0.2s; /* Animation for hover effect */
+    }
+
+    .project-card:hover {
+        transform: scale(1.05); /* Scale effect on hover */
+    }
+
+    .card-img-top {
+        height: 200px; /* Fixed height for images */
+        object-fit: cover; /* Ensure images cover the card area */
+    }
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="images/logo2.png" alt="Logo" width="254" height="61">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="aboutMe.html">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Research.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ml.html">ML/Ai</a></li>
+                    <li class="nav-item"><a class="nav-link" href="softDev.html">Software Dev</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gameDev.html">Game Dev</a></li>
+                    <li class="nav-item"><a class="nav-link" href="otherProj.html">Other Projects</a></li>
+                    
+                      <li class="nav-item">
+    <a class="nav-link" href="contactMe.html" style="font-weight: bold;">Contact me</a>
+</li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container py-5">
+    <h2 class="text-center mb-4">Other projects</h2>
+    <div class="row g-4">
+        <!-- Card for Stock Price Prediction Tool -->
+        <div class="col-md-6">
+            <div class="card project-card">
+                <img src="images/key2.jpg" class="card-img-top" alt="Stock price prediction tool">
+                <div class="card-body">
+                    <h5 class="card-title">3D printed Keyboard</h5>
+                    <p class="card-text">For 3D printing fans, this was printed on a Ender 3 V2 with BL Touch in PETG using the Sick86 template. It was made in four pieces due to the lack of space on my print bed. I installed new yellow gateron switches which were lubes and had gaskets installed. I then took the perilous task of soldering all the switches and diodes to the Teensy board to create a matrix to which I could take inputs. I then created a Python script to create the required key output with each button press.</p>
+                   
+                </div>
+            </div>
+        </div>
+
+
+
+ <!-- Card for MLPRegressor -->
+        <div class="col-md-6">
+            <div class="card project-card">
+                <img src="images/property2.jpg" alt="Description" class="card-img-top">
+               
+                <div class="card-body">
+                    <h5 class="card-title">HackSussex track winners 2023 </h5>
+                    <p class="card-text">Winners of the EDF track for the Sussex Hackathon with our project down with the ship. A website constructed using OpenAI/Github API'sto deteremine the enviromental impact of programming projects when given the URL to a Github repository. (Group project) </p>
+                    
+                </div>
+            </div>
+        </div>
+
+
+<!-- Object Detection with YoloV9 Card -->
+        <div class="col-md-6">
+            <div class="card project-card">
+                <img src="images/ballTracking.png" class="card-img-top" alt="Object Detection with YoloV11">
+                <div class="card-body">
+                    <h5 class="card-title">Hacksussex 2025 main prize winning project - Ball detection with YoloV11 with reframe</h5>
+                    <p class="card-text"> HackSussex hackathon 25 main prize winning project taking regular wide angle action camera footage and converting this in to broadcast style footage. Custom trained model using a mix of custom and Coco datasets to create object detection for the ball allowing us to determine where to reframe the image, providing a smoother more realistic transition to real-time mechanical/ml solutions. (Solo project) </p>
+                  
+                </div>
+            </div>
+        </div>
+
+
+
+
+<!-- Object Detection with YoloV9 Card -->
+        <div class="col-md-6">
+            <div class="card project-card">
+                <img src="images/mouse.png" class="card-img-top" alt="Object Detection with YoloV11">
+                <div class="card-body">
+                    <h5 class="card-title">Custom 3D printed mouse using Lidar scanning for true ergonomics </h5>
+                    <p class="card-text"> 3D printed mouse using the Bambu labs hardware kit alongside a custom shell. The custom shell was designed on blender by creating a boolean of my lidar scanned hand. The custom shell was then made to fit with the wireless bambu kit. </p>
+                  
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Card for MLPRegressor -->
+        <div class="col-md-6">
+            <div class="card project-card">
+                <img src="images/gameboy.jpeg" alt="Description" class="card-img-top">
+               
+                <div class="card-body">
+                    <h5 class="card-title">Lithium battery/IPS screen Gameboy </h5>
+                    <p class="card-text">I'm very passionate about 90's gaming, especially Nintendo. Growing up with a Gameboy color I really wanted to mod one to modernise it and overcome it's shortcomings. So I used the FunnyPlaying mods to add a much improved full colour IPS display with touch sensor. I then used a dremel to cut out the rear compartment so I could solder in a rechargeable lithium battery. Goodbye double A's. </p>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+        
+        
+        
+ <!-- Card for MLPRegressor -->
+        <div class="col-md-6">
+            <div class="card project-card">
+                <img src="images/3D.jpg" alt="Description" class="card-img-top">
+               
+                <div class="card-body">
+                    <h5 class="card-title">3D model creation </h5>
+                    <p class="card-text">I find pleasure in utilizing Blender, Cura, Tinkercad, and various other applications to craft 3D models tailored for gaming or 3D printing purposes. Within our Property Tycoon game, I created every model, even down to the individual playing cards. Beyond game development, I frequently employ model creation to create gaming accessories, household fixtures, and an assortment of other miscellaneous projects. </p>
+                    
+                </div>
+            </div>
+        </div>
+
+
+  
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+    
+   
+    
+    
+   
+    <!-- Additional vertical space between sections -->
+
+
+
+    
+  
+
+    
+    
+    
+    
+
+    <footer class="text-center text-lg-start bg-light text-muted" style="padding-top: 70px;">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Connect with me on social media:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://m.facebook.com/profile.php/?id=721761649&name=xhp_nt__fb__ac-tion__open_user" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/garyisherwood/?hl=en-gb" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://uk.linkedin.com/in/gary-isherwood-93424b17a" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/garyi53" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Gary Isherwood
+          </h6>
+          <p>
+        
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Projects
+          </h6>
+          <p>
+            <a href="softDev.html" class="text-reset">Software dev</a>
+          </p>
+          <p>
+            <a href="appDev.html" class="text-reset">App dev</a>
+          </p>
+          <p>
+            <a href="gameDev.html" class="text-reset">Game dev</a>
+          </p>
+          <p>
+            <a href="ml.html" class="text-reset">Machine learning</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="aboutMe.html" class="text-reset">About me</a>
+          </p>
+          <p>
+            <a href="contactMe.html" class="text-reset">Contact me</a>
+          </p>
+        
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Brighton, Sussex, UK</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            garyisherwood1991@outlook.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 44 7809157538</p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Gary Isherwood. All rights
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

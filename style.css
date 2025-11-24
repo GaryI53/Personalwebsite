@@ -1,0 +1,75 @@
+body {
+    background-color: #f2f2f2; /* Light pastel background */
+    font-family: 'Roboto', sans-serif; /* Set Roboto as the default font */
+    padding-bottom: 100px; /* Adjust the value as needed */
+}
+
+.tech-icons i {
+    margin-right: 10px;
+    font-size: 24px; /* Adjust size as needed */
+}
+
+.intro-section {
+    background-color: #ffffff;
+    padding-bottom: 100px; /* Adjust the value as needed */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+}
+
+
+.contact-info {
+    display: flex;
+    align-items: center; /* Vertically aligns items in the center */
+    justify-content: center; /* Horizontally centers the content on mobile */
+    flex-wrap: wrap;
+}
+
+
+
+
+footer {
+    /* Ensure the footer has its own padding if needed, and doesn't overlap with the body's bottom padding */
+    padding-top: 20px; /* Existing padding, adjust if needed */
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+.scaled-image {
+    width: 50% !important;
+    height: auto !important;
+}
+
+
+/* Add top margin to buttons */
+.intro-section .btn {
+    margin-top: 1rem; /* Adjust the value as needed */
+}
+
+
+
+/* Layout adjustments for buttons */
+.text-center .btn {
+    margin: 10px auto; /* Ensure some spacing around buttons and centering */
+    display: block; /* Stack buttons vertically */
+}
+
+/* Desktop specific styles */
+@media (min-width: 992px) {
+    .intro-section p {
+        font-size: 1.25rem; /* Slightly larger font size for desktop */
+    }
+  .contact-info {
+        justify-content: flex-start; /* Aligns items to the start (left) on desktop */
+        flex-wrap: nowrap;
+    }
+    .contact-info .email-text {
+        white-space: nowrap;
+        padding-bottom: 8px; /* Adds padding under the email for desktop */
+    }
+    
+}
